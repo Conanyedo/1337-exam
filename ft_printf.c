@@ -228,7 +228,7 @@ void	print_x(t_printf *vars)
 {
 	vars->s = (vars->x == 0) ? "0" : converter(vars->x, 'x');
 	vars->len = ft_strlen(vars->s);
-	if (!vars->d && vars->point && vars->precision == 0)
+	if (!vars->x && vars->point && vars->precision == 0)
 		vars->len = 0;
 	vars->precision -= (vars->precision > vars->len) ? vars->len : vars->precision;
 	vars->width -= (vars->width > vars->len + vars->precision) ? vars->len + vars->precision : vars->width;
