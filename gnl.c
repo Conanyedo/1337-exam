@@ -6,14 +6,11 @@
 /*   By: ybouddou <ybouddou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/06 22:34:12 by ybouddou          #+#    #+#             */
-/*   Updated: 2020/12/23 10:32:54 by ybouddou         ###   ########.fr       */
+/*   Updated: 2020/12/23 16:01:38 by ybouddou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <fcntl.h>
+#include "get_next_line.h"
 
 int  ft_strlen(const char *s)
 {
